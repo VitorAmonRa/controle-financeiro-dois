@@ -1,0 +1,25 @@
+.resume{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 4.6rem;
+    top: 135px;
+    left: 260px;
+    width: 1295px;
+    margin: 0 auto;
+    height: 12vh;
+}
+@media (max-width:1700px) {
+    .resume{
+        width: 70%;
+    }
+}
+@media (max-width:px) {
+    .resume{
+        width: 50%;
+
+    }
+    
+}

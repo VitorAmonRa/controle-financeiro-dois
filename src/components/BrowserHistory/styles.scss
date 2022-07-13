@@ -1,0 +1,34 @@
+@import '/src/components/variables.scss';
+
+.browser-history{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 1295px;
+    top: 100px;
+    color: $font-color;
+        .main{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        background-color: rgb(255, 255, 255);
+        table{
+            thead{
+                td{
+                    padding: 1rem ;
+                    max-width: 20px;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+@media (max-width:1700px) {
+    .browser-history{
+        width: 100%;
+    }
+}
