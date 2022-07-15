@@ -1,4 +1,4 @@
-Tela Inical!
+Tela Inicial!
 ![Template-Inical](https://user-images.githubusercontent.com/91434756/178847172-a6adf072-9d94-4b52-8893-6b4e91042496.PNG)
 
 Tela Funcionando!
