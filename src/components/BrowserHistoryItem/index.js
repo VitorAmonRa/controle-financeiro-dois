@@ -11,7 +11,7 @@ function BrowserHistoryItem({ item, onDelete}){
                 <table>
                     <tbody>
                         <td>{item.desc}</td>
-                        <td>{item.amount}</td>
+                        <td><strong>R$</strong> {item.amount}</td>
                         <td>{item.expense ? (
                             <FaRegArrowAltCircleDown color="red"/>
                         ) : (

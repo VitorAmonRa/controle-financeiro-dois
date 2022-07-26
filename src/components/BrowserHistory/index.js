@@ -14,7 +14,7 @@ function BrowserHistory({ itens, setItens}){
                 <table>
                     <thead> 
                         <td>Descrição</td>
-                        <td >Valor</td>
+                        <td>Valor</td>
                         <td>Tipo</td>
                         <td> <FaTrash size={20} /> </td>
                     </thead>
